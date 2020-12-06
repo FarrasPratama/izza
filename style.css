@@ -40,7 +40,7 @@ p {
 /* Sections */
 
 .colored-section {
-  background-color: #8675a9;
+  background-color: #1a1c20;
 }
 
 .white-section {
@@ -94,57 +94,9 @@ p {
   position: absolute;
 }
 
-/* Features Section */
-
-.feature-title{
-  font-family: "Arima Madurai";
-  font-size: 2rem;
-  text-align: center;
-}
-
-.feature-txt{
-  font-size: 1.5rem;
-  line-height: 1.5;
-  text-align: right;
-}
-
-.feature3-img{
-  width: 25%;
-  position: absolute;
-  left: 300px;
-}
-
-.feature2-txt{
-  font-size: 1.5rem;
-  line-height: 1.5;
-  text-align: left;
-}
-
-#features {
-  position: relative;
-}
-
-.feature-title {
-  font-size: 1.5rem;
-}
-
-.feature-box {
-  padding: 4.5%;
-}
-
-.icon {
-  color: #ef8172;
-  margin-bottom: 1rem;
-}
-
-.icon:hover {
-  color: #ff4c68;
-}
-
 /* Testimonial Section */
 
 #testimonials {
-  background-color: #8675a9;
 }
 
 .testimonial-title, .big-heading {
@@ -161,11 +113,21 @@ p {
 }
 
 .testimonial-text2, .normal-price {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  margin: 20px;
+  color: #cad315;
+  font-family: Atma;
+}
+
+.testimonial-text2-3, .normal-price {
   font-size: 2.5rem;
   line-height: 1.5;
+  font-weight: bold;
   margin: 20px;
-  color: #821752;
-  font-family: Neucha;
+  color: #cad315;
+  font-family: Atma;
 }
 
 .promo-price{
@@ -192,94 +154,25 @@ p {
 }
 
 #press {
-  background-color: #8675a9;
   padding-bottom: 5%;
   padding-top: 10%;
 }
 
 .press-logo {
-  color: #b5076b;
+  color: #9d0191;
   text-align: center;
-  font-family: "Pacifico";
+  font-family: "Staatliches";
   font-size: 5rem;
   font-weight: medium;
-  padding-bottom: 5%;
 }
 
 .nama-maba-p{
-  color: #b5076b;
+  color: #cc0e74;
   text-align: center;
-  font-family: "Waiting for the Sunrise";
+  font-family: "Bungee Shade";
   font-size: 3rem;
   padding-top: 5%;
   font-weight: bold;
-}
-
-/* Pricing Section */
-
-#pricing {
-  padding: 100px;
-}
-
-.pricing-column {
-  padding: 3% 2%;
-}
-
-.skill-row-left-title {
-  width: 75%;
-  left: 100px;
-  margin: 50px;
-  text-align: left;
-}
-
-.skill-row-left {
-  width: 100%;
-  left: 100px;
-  margin: 50px;
-  text-align: left;
-}
-
-.skill-row-right {
-  width: 100%;
-  right: 100px;
-  margin: 50px 0px;
-  text-align: right;
-}
-
-.sell-txt{
-  font-size: 2rem;
-  line-height: 1.5;
-}
-
-.selling-txt{
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-
-.pricing-title{
-  font-family: "Arima Madurai";
-}
-
-.pancake-img, .pearl-img, .tea-img, .feature1-img {
-  width: 35%;
-  float: left;
-  margin-right: 30px;
-}
-
-.cake-img, .coffee-img, .feature2-img{
-  width: 40%;
-  right: 100px;
-  float: right;
-  margin-left: 0px;
-}
-
-.coffee-img{
-  width: 25%;
-}
-/* CTA Section */
-
-.big-heading{
-  color: white;
 }
 
 /* Footer Section */
@@ -336,21 +229,23 @@ p {
   width: 30%;
 }
 
+.foto-pendamping-img{
+  width: 50%;
+}
+
 .regard{
-  font-size: 2rem;
+  font-size: 2.5rem;
   line-height: 1.5;
-  font-family: "Bad Script";
-  color: #132743;
-  font-weight: bold;
+  font-family: "Gochi Hand";
+  color: #f9f7cf;
   padding-top: 10%;
 }
 
 .regard2{
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 1.5;
-  font-family: "Bad Script";
-  color: #132743;
-  font-weight: bold;
+  font-family: "Gochi Hand";
+  color: #f9f7cf;
   padding-top: 5%;
   padding-bottom: 10%;
 }
@@ -360,6 +255,6 @@ p {
 }
 
 .gif-2{
-  width: 20%;
+  width: 25%;
   padding-bottom: 10%;
 }
